@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class NodesList<Integer> implements Iterable<Integer>{
+public class NodesList implements Iterable<Integer> {
     int size = 0;
     private Node first;
     private Node last;
